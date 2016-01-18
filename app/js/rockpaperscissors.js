@@ -60,7 +60,7 @@ function getWinner(playerMove, computerMove) {
   } else if (playerMove === 'paper' && computerMove === 'scissors') {
     winner = 'Computer';
   } else {
-    winner = 'Player'; //WATCH THE 'DOG'
+    winner = 'Player'; 
   }
 
   return winner;
